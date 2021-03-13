@@ -18,7 +18,7 @@ const workerScriptBlobUrl = URL.createObjectURL(scriptBlob);
 // 创建容量为 4 的工作线程池
 const workers = [];
 for (let i = 0; i < 4; ++i) {
-  workers.push(new Worker(workerScriptBlobUrl));
+  workers.push(new Worker(workerScriptBlobUrl)); 
 }
 
 // 在最后一个工作线程完成后打印出最终值 let responseCount = 0;
