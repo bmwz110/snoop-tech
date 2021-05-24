@@ -10,7 +10,7 @@ before_script:
   -     echo '333333333333'
   -     ENV='ejan'; 
   -   else
-  -     echo '4444444444444'
+  -     echo '4444444444444' 
   -     ENV='general';
   -   fi
   - fi
