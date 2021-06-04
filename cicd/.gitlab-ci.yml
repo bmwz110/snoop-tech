@@ -14,7 +14,7 @@ before_script:
   -     ENV='general';
   -   fi
   - fi
-
+ 
   # get latest tag
   # - CI_COMMIT_TAG=${CI_COMMIT_TAG}
   # - echo $CI_COMMIT_TAG
