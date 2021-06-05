@@ -22,7 +22,7 @@ before_script:
   # - if [[ $CI_COMMIT_TAG == ejan_* ]]; then TEST='ejan'; else TEST='general'; fi
   # - echo $TEST
 
-stages:
+stages: 
   - build 
   - test 
 
